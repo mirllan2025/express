@@ -8,7 +8,7 @@ const argv = await yargs(hideBin(process.argv))
     alias: 'zookeeper',
     type: 'string',
     description: 'Zookeeper 连接串',
-    default: '70.36.96.100:2181'
+    default: '165.154.244.104:2181'
 })
     .option('path', {
     alias: 'barrierPath',
