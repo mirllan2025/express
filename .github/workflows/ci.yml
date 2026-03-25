@@ -91,7 +91,7 @@ jobs:
           IP=${{inputs.ip}}
           # IP="154.89.50.218" # www.enk7h.vip
           # IP="ngk86.vip"
-          TIMEOUT=3
+          TIMEOUT=1
           # 3秒不会封号
 
           # Cloudflare
