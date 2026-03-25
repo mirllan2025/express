@@ -28,8 +28,7 @@ jobs:
             exit 1
           fi
         
-          count=$(jq 'unique | length' data.json)
-          echo "去重后的项数: $count"
+          count=20
           ids=$(jq -c -n --argjson n "$count" '[range(1; $n+1)]')
           echo "ids=$ids" >> $GITHUB_OUTPUT
 
