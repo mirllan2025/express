@@ -28,7 +28,7 @@ jobs:
             exit 1
           fi
         
-          count=20
+          count=$(jq '. | length' data.json)
           ids=$(jq -c -n --argjson n "$count" '[range(1; $n+1)]')
           echo "ids=$ids" >> $GITHUB_OUTPUT
 
