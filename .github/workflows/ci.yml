@@ -12,7 +12,7 @@ concurrency:
 
 env:
   TZ: Asia/Shanghai
-  TASK_COUNT: 450
+  TASK_COUNT: 500
   # node index.js --count 1000
 
 jobs:
