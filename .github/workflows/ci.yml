@@ -13,6 +13,7 @@ concurrency:
 env:
   TZ: Asia/Shanghai
   TASK_COUNT: 500
+  REDIS_URL: rediss://default:gQAAAAAAAazjAAIgcDE4NjhjYjQwN2NmYzg0NDBlYTAyMzhkZTU0ZmY2ZGM4YQ@equipped-mackerel-109795.upstash.io:6379
   # node index.js --count 1000
 
 jobs:
